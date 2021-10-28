@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <link rel="stylesheet" href="../css/D03_css.css">
+    <style>
+        div#khoi1 {
+            background-color: salmon;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            padding-left: 2em;
+            padding-right: 2em;
+
+            padding: 1em 4em 2em 3em;
+            text-align: center;
+        }
+
+        div#khoi1:hover {
+            background-color: seagreen;
+            color: seashell;
+        }
+
+        div#khoi1::first-letter {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2em;
+        }
+
+        p {
+            display: none;
+            background-color: yellowgreen;
+            padding: 2em;
+            text-align: right;
+        }
+
+        div#khoi1:hover p {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Pseudo-class demo</h2>
+    <hr>
+    <a href="D03_CSS_unit_vw.html">Go to amazon</a> <br> <br>
+    <p>Hello, i'm here! :D</p>
+    <div id="khoi1">Hover Me
+
+    </div>
+<div style="text-indent: 2em;">
+
+
+</div>
+
+</body>
+
+</html>
