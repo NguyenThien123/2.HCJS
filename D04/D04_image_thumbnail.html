@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-thumbnail</title>
+    <style>
+       
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:lightcoral;
+        }
+        #tv{
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #tv ul{
+            list-style-type: none;
+            width: 450px;
+        }
+        #tv li{
+            display: inline;
+            float: left;
+            padding: 10px;
+        }
+        #tv span{
+            position: absolute;
+            top: 10px;
+            left: 500px;
+        }
+        #tv li:hover span{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Vietnamese Foods Gallery - version 3
+    </h2>
+    <hr>
+
+    <div id="tv"> 
+        
+        <!--ul>li*6>img+span>img+p-->
+        <ul>
+            <li><img src="../images/smallbanhmi.png" alt="">
+                <span>
+                    <img src="../images/banhmi.png" alt="">
+                    <p>Banh mi<br>Gia: 15.000 VND</p>
+                    
+                </span>
+            </li>
+            <li><img src="../images/smallbunbo.png" alt="">
+                <span>
+                    <img src="../images/bunbo.png" alt="">
+                    <p>Bun bo<br>Gia: 45.000 VND</p>
+                </span>
+            </li>
+            <li><img src="../images/smallcomtam.png" alt="">
+                <span>
+                    <img src="../images/comtam.png" alt="">
+                    <p>Com tam<br>Gia: 35.000 VND</p>
+                </span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
