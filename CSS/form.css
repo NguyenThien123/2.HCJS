@@ -1,0 +1,24 @@
+/* CSS dung chhung cho cac form nhap lieu  */
+form div{
+    margin: 0.5rem;
+}
+form label{
+    display: inline-block;
+    width: 6rem;
+    }
+input[type="submit"]{
+    padding: .2rem 1rem;
+    background-color: red;
+    color: wheat;
+    font-weight: bold;
+    border: wheat solid thin;
+    border-radius: 1rem;
+    }
+    input[type="reset"]{
+        padding: .2rem 1rem;
+        background-color: lightseagreen;
+        color: wheat;
+        font-weight: bold;
+        border: wheat solid thin;
+        border-radius: 1rem;
+        }    

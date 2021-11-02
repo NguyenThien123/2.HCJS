@@ -7,16 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-login</title>
     <link rel="stylesheet" href="../CSS/D05_page.css">
-
+    <link rel="stylesheet" href="../CSS/form.css">
+    <style>
+        form{
+            width: 30%;
+        }
+    </style>
 </head>
 
 <body>
     <h2>HTML5 form Demo</h2>
     <hr>
+<fieldset>
+     <legend>Login</legend>
     <div>
-        <form action="" method="get">
+        <form action="D05_Table_dulich.html" method="get">
             <label for="">Username</label>
-            <input type="text" name="user" id="user">
+            <input type="text" name="user" id="user" required>
     </div>
     <div>
         <form action="" method="get">
@@ -28,6 +35,7 @@
         <input type="Reset" value="Reset">
     </div>
     </form>
+</fieldset>
 </body>
 
 </html>
