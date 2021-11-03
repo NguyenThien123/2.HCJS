@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form-login</title>
-    <link rel="stylesheet" href="../CSS/D05_page.css">
-    <link rel="stylesheet" href="../CSS/form.css">
-    <style>
-        form{
-            width: 30%;
-        }
-    </style>
+    <title>form-login</title>
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/form.css">
+
 </head>
-
 <body>
-    <h2>HTML5 form Demo</h2>
+    <h2>HTML5 Form Demo </h2>
     <hr>
-<fieldset>
-     <legend>Login</legend>
-    <div>
-        <form action="D05_Table_dulich.html" method="get">
-            <label for="">Username</label>
-            <input type="text" name="user" id="user" required>
-    </div>
-    <div>
-        <form action="" method="get">
-            <label for="">Password</label>
-            <input type="text" name="pass" id="pass">
-    </div>
-    <div>
-        <input type="submit" value="submit">
-        <input type="Reset" value="Reset">
-    </div>
-    </form>
-</fieldset>
-</body>
+    <form action="d05_table_dulich2.html" method="get">
+        <fieldset>
+            <legend>Login</legend> 
+            <div>
+                <label for="">Username</label>
+                <input type="text" name="user" id="user"
+                required>
+            </div>
+    
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="pass" id="pass"
+                required>
+            </div>
 
+        </fieldset>
+        
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
 </html>

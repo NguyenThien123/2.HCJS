@@ -1,24 +1,37 @@
-/* CSS dung chhung cho cac form nhap lieu  */
 form div{
-    margin: 0.5rem;
+    margin: .5rem;
 }
+
+form{
+    width: fit-content;
+    padding: 10px;
+    box-shadow: gainsboro 3px 3px 3px;
+}
+
 form label{
     display: inline-block;
     width: 6rem;
-    }
+}
+
 input[type="submit"]{
-    padding: .2rem 1rem;
+    padding: .3rem 1rem;
     background-color: red;
-    color: wheat;
+    color: whitesmoke;
     font-weight: bold;
-    border: wheat solid thin;
+    border: gainsboro solid thin;
     border-radius: 1rem;
-    }
-    input[type="reset"]{
-        padding: .2rem 1rem;
-        background-color: lightseagreen;
-        color: wheat;
-        font-weight: bold;
-        border: wheat solid thin;
-        border-radius: 1rem;
-        }    
+}
+
+input[type="reset"]{
+    padding: .3rem 1rem;
+    background-color: lightseagreen;
+    color: whitesmoke;
+    font-weight: bold;
+    border: gainsboro solid thin;
+    border-radius: 1rem;
+}
+
+input:required{   
+    border: gainsboro solid thin;
+    border-bottom: red solid medium;
+}
