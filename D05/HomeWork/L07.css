@@ -1,0 +1,15 @@
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    caption{
+        font-size: 1.5em;
+        color: brown;
+        padding-bottom: 5px;
+    }
+    th{
+        color: green;
+    }
+    td, th{
+        padding: 5px 10px;
+    }
+
