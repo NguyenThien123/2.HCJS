@@ -5,37 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web</title>
+    <style>
+        h2{
+            color: paleturquoise;
+            padding: 1em 0.1em ;
+        }
+        form{
+            height: 30em;
+            width: 17em;
+            background-color: blanchedalmond;
+            padding: 0em 0em 0em 2em;
+        }
+        p{color: orange;}
+    </style>
 </head>
 <body>
-    <h2>sign up</h2>
-    <hr>
-    <form action="L08_Login_Welcome.html" method="get">
+    
+    
+    <form action="HW2.html" method="get">
+        <h2>Sign Up</h2>
+     <p>Your Basic Info</p>  
      <label for="">Username</label>
      <input type="text" name="username" id="Username" placeholder="Enter you username" autofocus required> <br><br>
      <label for="">Password</label>
-     <input type="password" name="pass" id="pass" pattern="^\d{3}$"
+     <input type="password" name="pass" id="pass" 
      placeholder="enter password" required> <br><br>
 
      <label for="">email</label>
      <input type="email" name="mail" id="mail" placeholder="enter email"><br><br>
-     <label for="">Gender</label>
-     <input type="radio" name="gender" id="GenderMale" checked value="male">Male 
-     <input type="radio" name="gender" id="GenderFemale" >Female <br><br>
+     <label for="">Age</label>
+     <input type="radio" name="age" id="age1" >Under 18 
+     <input type="radio" name="age" id="age2" >18 or older <br><br>
 
-<label for="">Location</label>
-<select name="loc" id="loc">
-    <option value="SG">SaiGon</option>
-    <option value="HU">>Hue</option>
-    <option value="HN">HaNoi</option>
-    <option value="CT">CanTho</option>
-</select><br><br>
-<label for="">Birthday</label>
-<input type="date" name="Dob" id="Dob" value="2000-05-15"> <br><br>
+     <p>Your Profile</p>
+     <label for="">Comment</label>
+    <textarea name="comment" id="comment" 
+    cols="30" rows="4" placeholder="Input your comments"></textarea>
+      <br><br>
+      <select id="job" name="user_job">
+          <optgroup label="web">
+             <option value="web">Web Designer</option><br><br> 
+</optgroup>
 
-<label for="">Rating</label>
-<input type="number" name="rate" id="rate" min="1" max="5" required> <br><br>
-<input type="submit" value="Submit">
-<input type="reset" value="reset">    
+    <optgroup label="Mobile">
+       <option value="Android">Androild Developer</option>
+       <option value="IOS">IOS Developer</option>
+</optgroup>
+    <br><br>  
+    <input type="submit" value="Sign Up">
 </form>
+
 </body>
 </html>
