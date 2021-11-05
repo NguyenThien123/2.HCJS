@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+</head>
+<body>
+    <h2>sign up</h2>
+    <hr>
+    <form action="L08_Login_Welcome.html" method="get">
+     <label for="">Username</label>
+     <input type="text" name="username" id="Username" placeholder="Enter you username" autofocus required> <br><br>
+     <label for="">Password</label>
+     <input type="password" name="pass" id="pass" pattern="^\d{3}$"
+     placeholder="enter password" required> <br><br>
+
+     <label for="">email</label>
+     <input type="email" name="mail" id="mail" placeholder="enter email"><br><br>
+     <label for="">Gender</label>
+     <input type="radio" name="gender" id="GenderMale" checked value="male">Male 
+     <input type="radio" name="gender" id="GenderFemale" >Female <br><br>
+
+<label for="">Location</label>
+<select name="loc" id="loc">
+    <option value="SG">SaiGon</option>
+    <option value="HU">>Hue</option>
+    <option value="HN">HaNoi</option>
+    <option value="CT">CanTho</option>
+</select><br><br>
+<label for="">Birthday</label>
+<input type="date" name="Dob" id="Dob" value="2000-05-15"> <br><br>
+
+<label for="">Rating</label>
+<input type="number" name="rate" id="rate" min="1" max="5" required> <br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="reset">    
+</form>
+</body>
+</html>
